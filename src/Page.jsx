@@ -5,7 +5,7 @@ export const Page = () => {
   return (
     <div>
       <SignedOut>
-        <SignUp forceRedirectUrl={currentPage}/>
+        <SignUp forceRedirectUrl={currentPage} signInForceRedirectUrl={currentPage}/>
       </SignedOut>
     </div>
   );
